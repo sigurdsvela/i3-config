@@ -1,0 +1,10 @@
+#!/bin/bash
+cd ./init;
+
+for f in *; do
+	echo "running $f";
+	./$f;
+done
+
+echo "done!";
+
